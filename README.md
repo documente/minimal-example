@@ -98,3 +98,9 @@ yarn test
 ```
 
 This command will open the Playwright test runner from which you can run the generated tests.
+
+## Running the tests in CI
+
+This project is configured to run the tests in CI using GitHub Actions.
+
+The workflow is defined in the `.github/workflows/test.yml` file.
