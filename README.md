@@ -79,12 +79,17 @@ To get started, clone this repository on your computer.
 git clone https://github.com/documente/minimal-example.git
 ```
 
-You won't need to install the dependencies.
+Then, install the dependencies:
+
+```bash
+cd minimal-example
+npm install
+```
 
 To generate the tests, run the following command in the project directory:
 
 ```bash
-yarn generate-tests
+npm run generate-tests
 ```
 
 This command will generate the test files in the `tests` directory.
@@ -94,7 +99,7 @@ This command will generate the test files in the `tests` directory.
 To run the tests, run the following command in the project directory:
 
 ```bash
-yarn test-ui
+npm run test-ui
 ```
 
 This command will open the Playwright test runner from which you can run the generated tests.
@@ -102,7 +107,7 @@ This command will open the Playwright test runner from which you can run the gen
 Alternatively, you can run the tests in headless mode:
 
 ```bash
-yarn test
+npm run test
 ```
 
 ## Running the tests in CI

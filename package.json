@@ -10,14 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/documente/minimal-example"
   },
-  "packageManager": "yarn@2.4.3",
   "scripts": {
     "generate-tests": "documente",
-    "test": "yarn run playwright test",
-    "test-ui": "yarn run playwright test --ui"
+    "test": "playwright test",
+    "test-ui": "playwright test --ui"
   },
   "devDependencies": {
-    "@documente/documente": "^1.0.0-beta.16",
+    "@documente/documente": "^1.0.0-beta.17",
     "@playwright/test": "^1.40.1",
     "@types/node": "^20.10.7"
   }
