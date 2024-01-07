@@ -94,10 +94,16 @@ This command will generate the test files in the `tests` directory.
 To run the tests, run the following command in the project directory:
 
 ```bash
-yarn test
+yarn test-ui
 ```
 
 This command will open the Playwright test runner from which you can run the generated tests.
+
+Alternatively, you can run the tests in headless mode:
+
+```bash
+yarn test
+```
 
 ## Running the tests in CI
 

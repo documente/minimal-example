@@ -39,8 +39,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@documente/documente", "npm:1.0.0-beta.16"],
             ["@playwright/test", "npm:1.40.1"],
-            ["@types/node", "npm:20.10.7"],
-            ["playwright", "npm:1.40.1"]
+            ["@types/node", "npm:20.10.7"]
           ],
           "linkType": "SOFT",
         }]
@@ -67,8 +66,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@documente/minimal-example", "workspace:."],
             ["@documente/documente", "npm:1.0.0-beta.16"],
             ["@playwright/test", "npm:1.40.1"],
-            ["@types/node", "npm:20.10.7"],
-            ["playwright", "npm:1.40.1"]
+            ["@types/node", "npm:20.10.7"]
           ],
           "linkType": "SOFT",
         }]

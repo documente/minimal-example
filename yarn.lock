@@ -28,7 +28,6 @@ __metadata:
     "@documente/documente": ^1.0.0-beta.16
     "@playwright/test": ^1.40.1
     "@types/node": ^20.10.7
-    playwright: ^1.40.1
   languageName: unknown
   linkType: soft
 
@@ -706,7 +705,7 @@ fsevents@2.3.2:
   languageName: node
   linkType: hard
 
-"playwright@npm:1.40.1, playwright@npm:^1.40.1":
+"playwright@npm:1.40.1":
   version: 1.40.1
   resolution: "playwright@npm:1.40.1"
   dependencies:

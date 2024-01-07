@@ -13,7 +13,8 @@
   "packageManager": "yarn@2.4.3",
   "scripts": {
     "generate-tests": "documente",
-    "test": "yarn run playwright test --ui"
+    "test": "yarn run playwright test",
+    "test-ui": "yarn run playwright test --ui"
   },
   "devDependencies": {
     "@documente/documente": "^1.0.0-beta.16",
