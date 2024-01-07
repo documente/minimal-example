@@ -1,6 +1,6 @@
 # Minimal Documenté Example
 
-This is a minimal example of a Documenté project.
+This is a minimal example of a [Documenté](https://documente.github.io/) project.
 
 ## Project overview
 
@@ -35,7 +35,7 @@ then title should not exist
 This test case navigates to the example.com website and clicks on the "More information" link.
 Then it checks that the title does not exist: since the page has been redirected, the title is not visible anymore.
 
-To learn more about the syntax of the test cases, see the [Phrasé language overview](/test-cases) page.
+To learn more about the syntax of the test cases, see the [Phrasé language overview](https://documente.github.io/language-overview.html) page.
 
 ### The configuration file
 
@@ -51,6 +51,8 @@ runner: playwright
 input: README.md
 selectors: documente.selectors.yml
 ```
+
+The full list of configuration options is available on the [Configuration file reference](https://documente.github.io/cli-configuration.html) page.
 
 ### The selectors file
 

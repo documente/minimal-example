@@ -5,6 +5,11 @@
   "main": "index.js",
   "author": "pckerneis",
   "license": "GPL3",
+  "homepage": "https://documente.github.io/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/documente/minimal-example"
+  },
   "packageManager": "yarn@2.4.3",
   "scripts": {
     "generate-tests": "documente",
